@@ -312,6 +312,7 @@ Topics:
 #   - Name: Importing simple content access entitlements with Insights Operator
 #     File: insights-operator-simple-access
 #  must-gather not supported for customers, per Dustin Row, cannot create resource "namespaces"
+<<<<<<< HEAD
 #  - Name: Gathering data about your cluster
 #    File: gathering-cluster-data
 #    Distros: openshift-rosa-hcp
@@ -322,6 +323,18 @@ Topics:
 #   Dir: troubleshooting
 #   Distros: openshift-rosa-hcp
 #   Topics:
+=======
+- Name: Gathering data about your cluster
+  File: gathering-cluster-data
+  Distros: openshift-rosa-hcp
+- Name: Summarizing cluster specifications
+  File: summarizing-cluster-specifications
+  Distros: openshift-rosa-hcp
+- Name: Troubleshooting
+  Dir: troubleshooting
+  Distros: openshift-rosa-hcp
+  Topics:
+>>>>>>> 2a1a4e42c8 (took spaces from line 157 and 158)
 #  rosa has own troubleshooting installations
 #   - Name: Troubleshooting installations
 #     File: troubleshooting-installations
