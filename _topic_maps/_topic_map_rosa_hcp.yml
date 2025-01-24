@@ -600,7 +600,7 @@ Topics:
       File: osdk-helm-support
 #  - Name: Hybrid Helm Operator  <= Tech Preview
 #    File: osdk-hybrid-helm
-#  - Name: Updating Hybrid Helm-based projects  <= Tech Preview
+#  - Name: Updating Hybrid Helm-based projects  (Technology Preview)
 #    File: osdk-hybrid-helm-updating-projects
 # - Name: Java-based Operators  <= Tech Preview
 #   Dir: java
