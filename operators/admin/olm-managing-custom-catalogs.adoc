@@ -29,7 +29,10 @@ If your cluster is using custom catalogs, see xref:../../operators/operator_sdk/
 [id="olm-managing-custom-catalogs-bundle-format-prereqs"]
 == Prerequisites
 
+// TODO-HCP remove conditions for HCP after cli_tools book is migrated
+ifndef::openshift-rosa-hcp[]
 * You have installed the xref:../../cli_reference/opm/cli-opm-install.adoc#cli-opm-install[`opm` CLI].
+endif::openshift-rosa-hcp[]
 
 [id="olm-managing-custom-catalogs-fb"]
 == File-based catalogs
@@ -55,7 +58,10 @@ include::modules/olm-creating-fb-catalog-image.adoc[leveloffset=+2]
 [role="_additional-resources"]
 .Additional resources
 
+// TODO-HCP remove conditions for HCP after cli_tools book is migrated
+ifndef::openshift-rosa-hcp[]
 * xref:../../cli_reference/opm/cli-opm-ref.adoc#cli-opm-ref[`opm` CLI reference]
+endif::openshift-rosa-hcp[]
 
 include::modules/olm-filtering-fbc.adoc[leveloffset=+2]
 ifndef::openshift-dedicated,openshift-rosa,openshift-rosa-hcp[]
@@ -82,7 +88,10 @@ include::modules/olm-catalog-source-and-psa.adoc[leveloffset=+1]
 [role="_additional-resources"]
 .Additional resources
 
+// TODO-HCP remove conditions for HCP after cli_tools book is migrated
+ifndef::openshift-rosa-hcp[]
 * xref:../../authentication/understanding-and-managing-pod-security-admission.adoc#understanding-and-managing-pod-security-admission[Understanding and managing pod security admission]
+endif::openshift-rosa-hcp[]
 
 include::modules/olm-migrating-sqlite-catalog-to-fbc.adoc[leveloffset=+2]
 
